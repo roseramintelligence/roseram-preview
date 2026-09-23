@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101023">
+  <meta name="description" content="A standalone open-source preview of Roseram product concepts.">
+  <title>Roseram · Open-source preview</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Roseram preview home"><span class="brand-mark">✦</span> Roseram<span class="brand-dot">.</span></a>
+    <nav aria-label="Preview sections"><a href="#workspace">Workspace</a><a href="#business">Business</a><a href="#models">Models</a></nav>
+    <a class="header-link" href="mailto:support@roseram.com">Get in touch <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main id="main">
+    <section id="top" class="hero">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <p class="eyebrow"><span class="live-dot"></span> OPEN-SOURCE CONCEPT PREVIEW</p>
+      <h1>Think it.<br><span>Build what’s next.</span></h1>
+      <p class="hero-copy">An interactive look at a workspace where ideas, models, and business tools come together. This demo runs entirely in your browser.</p>
+      <div class="hero-actions"><a class="button button-primary" href="#workspace">Explore the preview <span aria-hidden="true">↗</span></a><a class="button button-ghost" href="#about">About this code</a></div>
+      <div class="hero-note"><span>01 / 03</span><span>Scroll to explore</span><span aria-hidden="true">↓</span></div>
+    </section>
+
+    <section id="workspace" class="section workspace-section" aria-labelledby="workspace-title">
+      <div class="section-intro"><p class="eyebrow">01 / WORKSPACE</p><h2 id="workspace-title">Your next idea<br><em>starts here.</em></h2><p>Explore a simple project workspace. The controls below are local-only demonstrations and do not call an AI model.</p></div>
+      <div class="workspace-shell">
+        <aside class="file-panel" aria-label="Demo project files"><div class="panel-heading"><span>EXPLORER</span><span>· · ·</span></div><strong>✦ Launch concept</strong><ul><li class="selected">▧ &nbsp; overview.md</li><li>▧ &nbsp; layout.css</li><li>▧ &nbsp; components.js</li><li>▧ &nbsp; README.md</li></ul><div class="file-foot">LOCAL PREVIEW · 4 FILES</div></aside>
+        <div class="editor-panel"><div class="editor-tabs"><span class="active">overview.md</span><span>Preview</span></div><div class="editor-body"><p class="code-line"><span>01</span> # A workspace for what comes next</p><p class="code-line"><span>02</span></p><p class="code-line"><span>03</span> Start with a question. Shape the outcome.</p><p class="code-line"><span>04</span> Keep ideas, code, and context together.</p><p class="code-line"><span>05</span></p><p class="code-line"><span>06</span> This open-source preview runs locally.</p><p class="code-line"><span>07</span> No account or API connection required.</p></div><form id="demo-form" class="prompt-form"><label for="demo-prompt">Try a local demo prompt</label><div><input id="demo-prompt" name="prompt" placeholder="Describe an idea to explore…" maxlength="160" required><button type="submit" aria-label="Run local demo">↗</button></div></form><p id="demo-output" class="demo-output" role="status" aria-live="polite">No prompt sent. This is a local UI demonstration.</p></div>
+      </div>
+    </section>
+
+    <section id="business" class="section business-section" aria-labelledby="business-title"><div class="section-intro"><p class="eyebrow">02 / BUSINESS</p><h2 id="business-title">Create the product.<br><em>Grow the business.</em></h2><p>Campaigns, audiences, and performance deserve a clear home. These cards illustrate the interface; no customer data or email sending is included.</p></div><div class="business-grid"><article><span class="card-icon">◎</span><small>01 / AUDIENCES</small><h3>Keep the right people close.</h3><p>Organize opt-in subscribers and understand who you are talking to.</p><span class="card-arrow" aria-hidden="true">↗</span></article><article><span class="card-icon">✳</span><small>02 / CAMPAIGNS</small><h3>Give every idea a direction.</h3><p>Draft, preview, and refine messages before anything goes live.</p><span class="card-arrow" aria-hidden="true">↗</span></article><article><span class="card-icon">↗</span><small>03 / INSIGHTS</small><h3>See what moves forward.</h3><p>Bring your work and its outcomes into one understandable view.</p><span class="card-arrow" aria-hidden="true">↗</span></article></div></section>
+
+    <section id="models" class="section models-section" aria-labelledby="models-title"><div class="section-intro"><p class="eyebrow">03 / MODELS</p><h2 id="models-title">Choose a direction.<br><em>Stay in control.</em></h2><p>This selector demonstrates interface behavior only. It does not imply provider access, performance, pricing, or availability.</p></div><div class="model-console"><div role="tablist" aria-label="Demo model categories" class="model-tabs"><button type="button" role="tab" aria-selected="true" data-model="Explore">Explore</button><button type="button" role="tab" aria-selected="false" data-model="Build">Build</button><button type="button" role="tab" aria-selected="false" data-model="Review">Review</button></div><div class="model-display"><span>SELECTED DEMO MODE</span><strong id="selected-model">Explore</strong><p id="model-description">Start with a question and map the possibilities.</p></div></div></section>
+
+    <section id="about" class="about-section"><p class="eyebrow">TRANSPARENT BY DESIGN</p><h2>Open preview.<br>Clear boundaries.</h2><p>This repository contains only the standalone frontend shown here. It is not the source code of the live Roseram platform, and it includes no production services, credentials, customer data, or third-party model connections.</p><a href="mailto:support@roseram.com">Questions? support@roseram.com <span aria-hidden="true">↗</span></a></section>
+  </main>
+  <footer><span>© 2026 Roseram · MIT-licensed preview</span><span>Built with plain HTML, CSS, and JavaScript.</span></footer>
+</body>
+</html>
