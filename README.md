@@ -68,6 +68,8 @@ Find the resources to take a project further.
 
 ### 🤝 Partners & affiliates
 
+[Browse the full 403-program affiliate opportunity catalog](affiliate-catalog.html) — categorized across nine industries; catalog inclusion does not imply a confirmed Roseram partnership.
+
 A home for creators, publishers and referral partners.
 
 | Resource | What you can explore |
