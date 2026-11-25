@@ -108,6 +108,12 @@ Manage your plan, access and preferences.
 | 📋 [Terms](https://roseram.com/terms) | Read applicable terms of service. |
 | 🗨️ [Support](https://roseram.com/support) | Get help with Roseram. |
 
+## 📦 Public source packages
+
+- [WordPress connector source and installation](integrations/wordpress/README.md)
+- [Public distribution inventory](DISTRIBUTION.md)
+- [Product review knowledge library](https://github.com/roseramintelligence/roseram-product-reviews)
+
 ## Run locally
 
 Open `index.html` in a browser. No install, account, API key, or build step is needed.
@@ -116,14 +122,14 @@ Open `index.html` in a browser. No install, account, API key, or build step is n
 
 - Responsive HTML/CSS interface with accessible workspace tabs.
 - Local-only interactions for exploring product concepts.
-- No network requests, analytics, authentication, email sending, or payment processing.
+- The frontend preview makes no model requests and includes no analytics or payment processing. External links open the live product; the separately installed WordPress connector makes authenticated requests only when an administrator connects or sends a prompt.
 - No production configuration, secrets, customer data, or Git history from the private application.
 
 The preview is intentionally separate from the live product. It is not a claim that the production application is fully open source. For questions, contact [support@roseram.com](mailto:support@roseram.com).
 
 ## License
 
-MIT. See `LICENSE`.
+The frontend showcase is MIT licensed; see `LICENSE`. The [WordPress connector](integrations/wordpress/README.md) is GPL-2.0-or-later and has its own license declaration.
 
 ## Explore the Roseram ecosystem
 
