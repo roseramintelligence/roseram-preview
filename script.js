@@ -21,3 +21,20 @@ document.getElementById('demo-form').addEventListener('submit', (event) => {
     ? `Local preview received: “${prompt}”. No request was sent to a server.`
     : 'Enter an idea to try the local preview.';
 });
+
+// Search only the local public resource catalog. No requests are sent.
+const search = document.getElementById('ecosystem-search');
+if (search) search.addEventListener('input', () => {
+  const query = search.value.trim().toLowerCase();
+  let count = 0;
+  document.querySelectorAll('.showcase-group').forEach(group => {
+    let visible = 0;
+    group.querySelectorAll('.showcase-card').forEach(card => {
+      card.hidden = !card.dataset.search.includes(query);
+      if (!card.hidden) { count++; visible++; }
+    });
+    group.hidden = visible === 0;
+  });
+  document.getElementById('ecosystem-count').textContent = count + (count === 1 ? ' resource' : ' resources');
+  document.getElementById('ecosystem-empty').hidden = count !== 0;
+});
